@@ -6,7 +6,7 @@ version: '3'
 services:
   rc1:
     tty: true
-    image: reids:t
+    image: lingting2020/redis:rc-6.0
     hostname: rc1
     container_name: rc1
     networks:
@@ -20,7 +20,7 @@ services:
       - 29001:6379
   rc2:
     tty: true
-    image: reids:t
+    image: lingting2020/redis:rc-6.0
     hostname: rc2
     container_name: rc2
     networks:
@@ -34,7 +34,7 @@ services:
       - 29002:6379
   rc3:
     tty: true
-    image: reids:t
+    image: lingting2020/redis:rc-6.0
     hostname: rc3
     container_name: rc3
     networks:
